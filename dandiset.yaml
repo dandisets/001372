@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -10,23 +11,39 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: NIH BRAIN CONNECTS - LINC UM1 - Macaque Lightsheet Microscopy Dataset (2025).
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
+citation: Yendiki, Anastasia (2025) NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358-02
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: ayendiki@mgh.harvard.edu
+  includeInCitation: true
+  name: Yendiki, Anastasia
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
-description: Macaque Lightsheet Microscopy Dataset
+description: "Modalities include:\n- Diffusion-weighted magnetic resonance imaging
+  (dMRI)\n- Light-sheet microscopy (LSM)\n- Dark-field microscopy\n- Polarization
+  sensitive optical coherence tomography (PS-OCT)"
+ethicsApproval: []
 id: DANDI:001372/draft
 identifier: DANDI:001372
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001372/versions/draft/assets/
-name: NIH BRAIN CONNECTS - LINC UM1 - Macaque Lightsheet Microscopy Dataset
+name: NIH BRAIN CONNECTS - LINC UM1 - Macaque Data
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001372/draft
 version: draft
+wasGeneratedBy: []
