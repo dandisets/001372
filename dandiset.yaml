@@ -17,9 +17,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara; Gunalan, Kabilar (2026)
-  NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001372/draft
+citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara; Gunalan, Kabilar; Ghosh,
+  Satrajit (2026) NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
@@ -40,6 +40,9 @@ contributor:
   schemaKey: Person
 - includeInCitation: true
   name: Gunalan, Kabilar
+  schemaKey: Person
+- includeInCitation: true
+  name: Ghosh, Satrajit
   schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
 description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
@@ -64,6 +67,10 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://doi.org/10.64898/2026.02.18.705310
+- name: Center for Large-scale Imaging of Neural Circuits
+  relation: dcite:IsPartOf
+  schemaKey: Resource
+  url: https://connects.mgh.harvard.edu/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
