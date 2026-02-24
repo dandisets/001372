@@ -17,8 +17,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara (2026) NIH BRAIN CONNECTS
-  - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
+citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara; Gunalan, Kabilar (2026)
+  NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001372/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
@@ -36,6 +37,9 @@ contributor:
   schemaKey: Person
 - includeInCitation: true
   name: Maffei, Chiara
+  schemaKey: Person
+- includeInCitation: true
+  name: Gunalan, Kabilar
   schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
 description: Data for the LINC project.
@@ -60,4 +64,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001372/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- name: 'NIH BRAIN Initiative Connectivity Across Scales (BRAIN CONNECTS) '
+  schemaKey: Project
