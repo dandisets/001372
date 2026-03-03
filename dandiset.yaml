@@ -71,6 +71,15 @@ relatedResource:
   relation: dcite:IsPartOf
   schemaKey: Resource
   url: https://connects.mgh.harvard.edu/
+- name: LINC Gallery
+  relation: dcite:IsSourceOf
+  resourceType: dcite:InteractiveResource
+  schemaKey: Resource
+  url: https://gallery.lincbrain.org
+- name: NIH BRAIN CONNECTS
+  relation: dcite:IsPartOf
+  schemaKey: Resource
+  url: https://www.brain-connects.org
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
