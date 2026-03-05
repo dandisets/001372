@@ -15,10 +15,13 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach: []
-  dataStandard: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 64794744
-  numberOfFiles: 3
+  numberOfBytes: 64795599
+  numberOfFiles: 4
   numberOfSamples: 1
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -36,8 +39,7 @@ contributor:
 - email: ayendiki@mgh.harvard.edu
   includeInCitation: true
   name: Yendiki, Anastasia
-  roleName:
-  - dcite:ContactPerson
+  roleName: []
   schemaKey: Person
 - includeInCitation: true
   name: Gong, Ting
@@ -47,6 +49,8 @@ contributor:
   schemaKey: Person
 - includeInCitation: true
   name: Gunalan, Kabilar
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Person
 - includeInCitation: true
   name: Ghosh, Satrajit
