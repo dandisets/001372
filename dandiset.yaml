@@ -27,20 +27,17 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara; Gunalan, Kabilar; Ghosh,
-  Satrajit (2026) NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
+citation: Gong, Ting; Maffei, Chiara; Sung, Dongsuk; Bell, Elissa; Wu, Jingjing; Shao,
+  Jasmine; Rosenblum, Emma W; Zeng, Xiangrui; Ramos-Llorden, Gabriel; Müller, Alina;
+  Mahmutovic, Mirsad; Keil, Boris; Gunalan, Kabilar; Ghosh, Satrajit; Augustinack,
+  Jean C; Huang, Susie Y; Haber, Suzanne N; Yendiki, Anastasia (2026) NIH BRAIN CONNECTS
+  - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- email: ayendiki@mgh.harvard.edu
-  includeInCitation: true
-  name: Yendiki, Anastasia
-  roleName: []
-  schemaKey: Person
 - includeInCitation: true
   name: Gong, Ting
   schemaKey: Person
@@ -48,12 +45,57 @@ contributor:
   name: Maffei, Chiara
   schemaKey: Person
 - includeInCitation: true
+  name: Sung, Dongsuk
+  schemaKey: Person
+- includeInCitation: true
+  name: Bell, Elissa
+  schemaKey: Person
+- includeInCitation: true
+  name: Wu, Jingjing
+  schemaKey: Person
+- includeInCitation: true
+  name: Shao, Jasmine
+  schemaKey: Person
+- includeInCitation: true
+  name: Rosenblum, Emma W
+  schemaKey: Person
+- includeInCitation: true
+  name: Zeng, Xiangrui
+  schemaKey: Person
+- includeInCitation: true
+  name: Ramos-Llorden, Gabriel
+  schemaKey: Person
+- includeInCitation: true
+  name: Müller, Alina
+  schemaKey: Person
+- includeInCitation: true
+  name: Mahmutovic, Mirsad
+  schemaKey: Person
+- includeInCitation: true
+  name: Keil, Boris
+  schemaKey: Person
+- email: kabi@mit.edu
+  includeInCitation: true
   name: Gunalan, Kabilar
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
 - includeInCitation: true
   name: Ghosh, Satrajit
+  schemaKey: Person
+- includeInCitation: true
+  name: Augustinack, Jean C
+  schemaKey: Person
+- includeInCitation: true
+  name: Huang, Susie Y
+  schemaKey: Person
+- includeInCitation: true
+  name: Haber, Suzanne N
+  schemaKey: Person
+- email: ayendiki@mgh.harvard.edu
+  includeInCitation: true
+  name: Yendiki, Anastasia
+  roleName: []
   schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
 description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
