@@ -20,9 +20,9 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 4865900527
-  numberOfFiles: 46
-  numberOfSubjects: 1
+  numberOfBytes: 67113523970
+  numberOfFiles: 192
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
@@ -37,64 +37,137 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-1378-8509
+  includeInCitation: true
   name: Gong, Ting
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  email: cmaffei@mgh.harvard.edu
+  identifier: 0000-0002-3837-0635
+  includeInCitation: true
   name: Maffei, Chiara
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Sung, Dongsuk
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Bell, Elissa
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Wu, Jingjing
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Shao, Jasmine
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Rosenblum, Emma W
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Zeng, Xiangrui
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Ramos-Llorden, Gabriel
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Müller, Alina
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Mahmutovic, Mirsad
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Keil, Boris
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- email: kabi@mit.edu
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  email: kabi@mit.edu
+  identifier: 0000-0001-6964-4865
   includeInCitation: true
   name: Gunalan, Kabilar
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  email: satra@mit.edu
+  identifier: 0000-0002-5312-6729
+  includeInCitation: true
   name: Ghosh, Satrajit
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-3129-6671
+  includeInCitation: true
   name: Augustinack, Jean C
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0003-2950-7254
+  includeInCitation: true
   name: Huang, Susie Y
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Haber, Suzanne N
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- email: ayendiki@mgh.harvard.edu
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  email: ayendiki@mgh.harvard.edu
+  identifier: 0000-0003-1386-3828
   includeInCitation: true
   name: Yendiki, Anastasia
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
 description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
@@ -106,6 +179,10 @@ description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is fu
 ethicsApproval: []
 id: DANDI:001372/draft
 identifier: DANDI:001372
+keywords:
+- Multimodal imaging
+- Diffusion MRI
+- Tractography
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
