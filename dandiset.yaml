@@ -58,7 +58,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-6287-2144
+  includeInCitation: true
   name: Sung, Dongsuk
   roleName:
   - dcite:Author
@@ -88,7 +89,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0003-4020-705X
+  includeInCitation: true
   name: Ramos-Llorden, Gabriel
   roleName:
   - dcite:Author
