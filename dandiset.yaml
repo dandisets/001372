@@ -20,17 +20,18 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 67946050198
-  numberOfFiles: 211
+  numberOfBytes: 68312663868
+  numberOfFiles: 214
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
 citation: Gong, Ting; Maffei, Chiara; Sung, Dongsuk; Bell, Elissa; Wu, Jingjing; Shao,
   Jasmine; Rosenblum, Emma W; Zeng, Xiangrui; Ramos-Llorden, Gabriel; Müller, Alina;
-  Mahmutovic, Mirsad; Keil, Boris; Gunalan, Kabilar; Ghosh, Satrajit; Augustinack,
-  Jean C; Huang, Susie Y; Haber, Suzanne N; Yendiki, Anastasia (2026) NIH BRAIN CONNECTS
-  - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
+  Mahmutovic, Mirsad; Keil, Boris; Ghosh, Satrajit; Gunalan, Kabilar; Augustinack,
+  Jean C; Huang, Susie Y; Haber, Suzanne N; Gonzales, Ricardo A; Yendiki, Anastasia
+  (2026) NIH BRAIN CONNECTS - LINC UM1 - Macaque Data (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
@@ -117,12 +118,11 @@ contributor:
   - identifier: https://ror.org/05ymca674
     name: McGovern Institute for Brain Research
     schemaKey: Affiliation
-  email: kabi@mit.edu
-  identifier: 0000-0001-6964-4865
+  email: satra@mit.edu
+  identifier: 0000-0002-5312-6729
   includeInCitation: true
-  name: Gunalan, Kabilar
+  name: Ghosh, Satrajit
   roleName:
-  - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
 - affiliation:
@@ -132,11 +132,12 @@ contributor:
   - identifier: https://ror.org/05ymca674
     name: McGovern Institute for Brain Research
     schemaKey: Affiliation
-  email: satra@mit.edu
-  identifier: 0000-0002-5312-6729
+  email: kabi@mit.edu
+  identifier: 0000-0001-6964-4865
   includeInCitation: true
-  name: Ghosh, Satrajit
+  name: Gunalan, Kabilar
   roleName:
+  - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
 - affiliation:
@@ -159,6 +160,11 @@ contributor:
   name: Haber, Suzanne N
   roleName:
   - dcite:Author
+  schemaKey: Person
+- email: rgonzalesvera@mgh.harvard.edu
+  identifier: 0000-0002-9384-4602
+  includeInCitation: true
+  name: Gonzales, Ricardo A
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/032q5ym94
@@ -185,6 +191,12 @@ keywords:
 - Multimodal imaging
 - Diffusion MRI
 - Tractography
+- Macaque
+- Template
+- Common coordinate framework
+- SANDI
+- Blockface
+- Histology
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
