@@ -30,7 +30,7 @@ citation: Gong, Ting; Maffei, Chiara; Sung, Dongsuk; Bell, Elissa; Wu, Jingjing;
   Jasmine; Rosenblum, Emma W; Zeng, Xiangrui; Ramos-Llorden, Gabriel; Müller, Alina;
   Mahmutovic, Mirsad; Keil, Boris; Gunalan, Kabilar; Ghosh, Satrajit; Augustinack,
   Jean C; Huang, Susie Y; Haber, Suzanne N; Yendiki, Anastasia (2026) NIH BRAIN CONNECTS
-  - LINC UM1 - Macaque Data (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001372/draft
+  - LINC UM1 - Macaque Data (Version 0.261124.1639) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001372/0.261124.1639
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
@@ -172,14 +172,16 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2025-03-31T19:39:36.065752+00:00'
+datePublished: '2026-11-24T16:39:55.280834+00:00'
 description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
   by an NIH BRAIN Initiative CONNECTS UM1 comprehensive center award (PIs: Haber,
   Hillman, Yendiki). Its goal is to develop novel technologies for imaging brain connections
   down to the microscopic scale, and deploy these technologies to image cortico-subcortical
   projections that are relevant to deep-brain stimulation for motor and psychiatric
   disorders.'
+doi: 10.48324/dandi.001372/0.261124.1639
 ethicsApproval: []
-id: DANDI:001372/draft
+id: DANDI:001372/0.261124.1639
 identifier: DANDI:001372
 keywords:
 - Multimodal imaging
@@ -188,8 +190,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001372/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001372/0.261124.1639/assets.yaml
 name: NIH BRAIN CONNECTS - LINC UM1 - Macaque Data
+publishedBy:
+  endDate: '2026-11-24T16:39:55.280834+00:00'
+  id: urn:uuid:96d7cdc6-9064-4c84-813b-322d352ca932
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-24T16:39:55.280834+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c9e9ea84-698a-4401-8853-a65ef0a4da6d
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Multi-dimensional diffusion MRI at ultra-high gradient strength for mapping
     axonal architecture and microstructure in the primate brain
@@ -211,11 +225,12 @@ relatedResource:
   relation: dcite:IsPartOf
   schemaKey: Resource
   url: https://www.brain-connects.org
+releaseNotes: Data associated with https://doi.org/10.64898/2026.02.18.705310
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001372/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001372/0.261124.1639
+version: 0.261124.1639
 wasGeneratedBy:
 - name: 'NIH BRAIN Initiative Connectivity Across Scales (BRAIN CONNECTS) '
   schemaKey: Project
